@@ -1,0 +1,48 @@
+body {
+  font-family: "Arvo", serif;
+  background-color: #ebf0fa;
+  margin: 0;
+  padding: 0;
+}
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 100%;
+  padding: 40px;
+  margin: 50px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.08);
+  overflow: auto;
+}
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 5px;
+}
+.profile-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.userdetails {
+  margin-bottom: 50px;
+  line-height: normal;
+}
+.details {
+  line-height: normal;
+}
+.centered-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.centered-items img {
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+}
