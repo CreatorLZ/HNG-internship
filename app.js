@@ -36,7 +36,7 @@ function updateUTCTime() {
   );
 
   // Inject the current UTC time into the div's content
-  currentUTCTimeDiv.textContent = `Current UTC Time (ms): ${currentUTCTime}`;
+  currentUTCTimeDiv.textContent = currentUTCTime;
 
   // Update the time every second (1000 milliseconds)
   setTimeout(updateUTCTime, 1000);
